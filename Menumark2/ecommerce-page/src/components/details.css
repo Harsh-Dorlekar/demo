@@ -1,0 +1,71 @@
+.detail-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.product-details-header h1 {
+  margin-bottom: 0.5em;
+}
+
+.product-details-header p {
+  color: #666;
+  margin-bottom: 1em;
+}
+
+.product-container {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.product-image {
+  width: 50%;
+  margin-right: 20px;
+  background-color: #ccc; /* Placeholder for where the image would be */
+}
+
+.product-info {
+  width: 50%;
+}
+
+.star-rating {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.detail-price {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.buy-now {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.buy-now:hover {
+  background-color: #444;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-item {
+  background-color: #f8f8f8;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-title {
+  font-weight: bold;
+}
+
+.accordion-content {
+  padding-top: 10px;
+}

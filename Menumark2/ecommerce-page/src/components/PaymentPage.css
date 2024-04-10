@@ -1,0 +1,115 @@
+.payment-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.main-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adjust the space between the containers */
+}
+
+.payment-page-container h1,
+.payment-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sample-text {
+  color: grey;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.payment-form {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"] {
+  border: 1px solid #ccc;
+}
+
+.btn-pay-now {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-pay-now:hover {
+  background-color: #333;
+}
+/* ... existing styles ... */
+
+.receipt-summary {
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 500px;
+  background-color: white; /* Change to white */
+  border-radius: 15px; /* Perfect border-radius is subjective, adjust as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+    /* Horizontal offset, vertical offset, blur radius, color */ 0 6px 20px
+      rgba(0, 0, 0, 0.1); /* Layered shadows for a deeper effect */
+}
+
+.receipt-summary h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.price {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.receipt-line {
+  border-top: 1px solid #000;
+  margin: 10px 0;
+}
+
+.receipt-details {
+  margin-top: 10px;
+}
+
+.receipt-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.receipt-detail.bold {
+  font-weight: bold;
+}
+
+/* ... existing styles ... */

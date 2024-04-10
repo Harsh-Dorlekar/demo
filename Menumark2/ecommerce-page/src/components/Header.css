@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+h1 {
+  padding-bottom: 3rem;
+}
